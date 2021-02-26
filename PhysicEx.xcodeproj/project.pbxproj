@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE33E66C252D9AAF0025CB8B /* ArhimedScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33E66B252D9AAF0025CB8B /* ArhimedScreenWorker.swift */; };
+		CE33E68D253462030025CB8B /* FrictionScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33E68C253462030025CB8B /* FrictionScreenWorker.swift */; };
+		CE33E6BE2539A81C0025CB8B /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33E6BD2539A81C0025CB8B /* MotionManager.swift */; };
 		CE6CEE8025235F94009F5F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEE7F25235F94009F5F2C /* AppDelegate.swift */; };
 		CE6CEE8225235F94009F5F2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEE8125235F94009F5F2C /* SceneDelegate.swift */; };
-		CE6CEE8425235F94009F5F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEE8325235F94009F5F2C /* ContentView.swift */; };
 		CE6CEE8625235F99009F5F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6CEE8525235F99009F5F2C /* Assets.xcassets */; };
 		CE6CEE8925235F99009F5F2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6CEE8825235F99009F5F2C /* Preview Assets.xcassets */; };
 		CE6CEE8C25235F99009F5F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6CEE8A25235F99009F5F2C /* LaunchScreen.storyboard */; };
+		CE6CEE9C25236125009F5F2C /* ArhimedScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEE9B25236125009F5F2C /* ArhimedScreenView.swift */; };
+		CE6CEE9F25236146009F5F2C /* ArhimedScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEE9E25236146009F5F2C /* ArhimedScreenModel.swift */; };
+		CE6CEEA225236158009F5F2C /* ArhimedScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEA125236158009F5F2C /* ArhimedScreenIntent.swift */; };
+		CE6CEEAA252362A3009F5F2C /* FrictionScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEA9252362A3009F5F2C /* FrictionScreenView.swift */; };
+		CE6CEEAD252362AF009F5F2C /* FrictionScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEAC252362AF009F5F2C /* FrictionScreenIntent.swift */; };
+		CE6CEEB0252362BE009F5F2C /* FrictionScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEAF252362BE009F5F2C /* FrictionScreenModel.swift */; };
+		CE6CEEB3252362E0009F5F2C /* MenuScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEB2252362E0009F5F2C /* MenuScreenView.swift */; };
+		CE6CEEB6252362ED009F5F2C /* MenuScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEB5252362ED009F5F2C /* MenuScreenIntent.swift */; };
+		CE6CEEB925236305009F5F2C /* MenuScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEB825236305009F5F2C /* MenuScreenModel.swift */; };
+		CE6CEEBD25236350009F5F2C /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEBC2523634F009F5F2C /* MainScreenView.swift */; };
+		CE6CEEC12523635D009F5F2C /* MainScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEC02523635D009F5F2C /* MainScreenIntent.swift */; };
+		CE6CEEC42523636A009F5F2C /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEC32523636A009F5F2C /* MainScreenModel.swift */; };
+		CE6CEEC72523637A009F5F2C /* MainScreenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEEC62523637A009F5F2C /* MainScreenSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE33E66B252D9AAF0025CB8B /* ArhimedScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhimedScreenWorker.swift; sourceTree = "<group>"; };
+		CE33E68C253462030025CB8B /* FrictionScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrictionScreenWorker.swift; sourceTree = "<group>"; };
+		CE33E6BD2539A81C0025CB8B /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		CE6CEE7C25235F94009F5F2C /* PhysicEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6CEE7F25235F94009F5F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6CEE8125235F94009F5F2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE6CEE8325235F94009F5F2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE6CEE8525235F99009F5F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6CEE8825235F99009F5F2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE6CEE8B25235F99009F5F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6CEE8D25235F99009F5F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6CEE9B25236125009F5F2C /* ArhimedScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhimedScreenView.swift; sourceTree = "<group>"; };
+		CE6CEE9E25236146009F5F2C /* ArhimedScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhimedScreenModel.swift; sourceTree = "<group>"; };
+		CE6CEEA125236158009F5F2C /* ArhimedScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhimedScreenIntent.swift; sourceTree = "<group>"; };
+		CE6CEEA9252362A3009F5F2C /* FrictionScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrictionScreenView.swift; sourceTree = "<group>"; };
+		CE6CEEAC252362AF009F5F2C /* FrictionScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrictionScreenIntent.swift; sourceTree = "<group>"; };
+		CE6CEEAF252362BE009F5F2C /* FrictionScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrictionScreenModel.swift; sourceTree = "<group>"; };
+		CE6CEEB2252362E0009F5F2C /* MenuScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenView.swift; sourceTree = "<group>"; };
+		CE6CEEB5252362ED009F5F2C /* MenuScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenIntent.swift; sourceTree = "<group>"; };
+		CE6CEEB825236305009F5F2C /* MenuScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenModel.swift; sourceTree = "<group>"; };
+		CE6CEEBC2523634F009F5F2C /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		CE6CEEC02523635D009F5F2C /* MainScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenIntent.swift; sourceTree = "<group>"; };
+		CE6CEEC32523636A009F5F2C /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		CE6CEEC62523637A009F5F2C /* MainScreenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE33E6B82539A7B20025CB8B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE33E6BD2539A81C0025CB8B /* MotionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		CE6CEE7325235F94009F5F2C = {
 			isa = PBXGroup;
 			children = (
+				CE6CEE9425235FEE009F5F2C /* Lib */,
 				CE6CEE7E25235F94009F5F2C /* PhysicEx */,
 				CE6CEE7D25235F94009F5F2C /* Products */,
 			);
@@ -56,9 +95,9 @@
 		CE6CEE7E25235F94009F5F2C /* PhysicEx */ = {
 			isa = PBXGroup;
 			children = (
+				CE6CEE952523600E009F5F2C /* Screens */,
 				CE6CEE7F25235F94009F5F2C /* AppDelegate.swift */,
 				CE6CEE8125235F94009F5F2C /* SceneDelegate.swift */,
-				CE6CEE8325235F94009F5F2C /* ContentView.swift */,
 				CE6CEE8525235F99009F5F2C /* Assets.xcassets */,
 				CE6CEE8A25235F99009F5F2C /* LaunchScreen.storyboard */,
 				CE6CEE8D25235F99009F5F2C /* Info.plist */,
@@ -73,6 +112,68 @@
 				CE6CEE8825235F99009F5F2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE6CEE9425235FEE009F5F2C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CE33E6B82539A7B20025CB8B /* Manager */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CE6CEE952523600E009F5F2C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CEEBB25236336009F5F2C /* MainScreen */,
+				CE6CEE9A252360F1009F5F2C /* ArhimedScreen */,
+				CE6CEE9925236091009F5F2C /* FrictionScreen */,
+				CE6CEE9625236020009F5F2C /* MenuScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE6CEE9625236020009F5F2C /* MenuScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CEEB2252362E0009F5F2C /* MenuScreenView.swift */,
+				CE6CEEB5252362ED009F5F2C /* MenuScreenIntent.swift */,
+				CE6CEEB825236305009F5F2C /* MenuScreenModel.swift */,
+			);
+			path = MenuScreen;
+			sourceTree = "<group>";
+		};
+		CE6CEE9925236091009F5F2C /* FrictionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CEEA9252362A3009F5F2C /* FrictionScreenView.swift */,
+				CE6CEEAF252362BE009F5F2C /* FrictionScreenModel.swift */,
+				CE6CEEAC252362AF009F5F2C /* FrictionScreenIntent.swift */,
+				CE33E68C253462030025CB8B /* FrictionScreenWorker.swift */,
+			);
+			path = FrictionScreen;
+			sourceTree = "<group>";
+		};
+		CE6CEE9A252360F1009F5F2C /* ArhimedScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CEE9B25236125009F5F2C /* ArhimedScreenView.swift */,
+				CE6CEE9E25236146009F5F2C /* ArhimedScreenModel.swift */,
+				CE6CEEA125236158009F5F2C /* ArhimedScreenIntent.swift */,
+				CE33E66B252D9AAF0025CB8B /* ArhimedScreenWorker.swift */,
+			);
+			path = ArhimedScreen;
+			sourceTree = "<group>";
+		};
+		CE6CEEBB25236336009F5F2C /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CEEBC2523634F009F5F2C /* MainScreenView.swift */,
+				CE6CEEC02523635D009F5F2C /* MainScreenIntent.swift */,
+				CE6CEEC32523636A009F5F2C /* MainScreenModel.swift */,
+				CE6CEEC62523637A009F5F2C /* MainScreenSettings.swift */,
+			);
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +246,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6CEE9F25236146009F5F2C /* ArhimedScreenModel.swift in Sources */,
+				CE6CEEAA252362A3009F5F2C /* FrictionScreenView.swift in Sources */,
+				CE6CEEC42523636A009F5F2C /* MainScreenModel.swift in Sources */,
+				CE6CEEB925236305009F5F2C /* MenuScreenModel.swift in Sources */,
+				CE33E68D253462030025CB8B /* FrictionScreenWorker.swift in Sources */,
 				CE6CEE8025235F94009F5F2C /* AppDelegate.swift in Sources */,
+				CE6CEEB3252362E0009F5F2C /* MenuScreenView.swift in Sources */,
+				CE33E6BE2539A81C0025CB8B /* MotionManager.swift in Sources */,
 				CE6CEE8225235F94009F5F2C /* SceneDelegate.swift in Sources */,
-				CE6CEE8425235F94009F5F2C /* ContentView.swift in Sources */,
+				CE6CEEC12523635D009F5F2C /* MainScreenIntent.swift in Sources */,
+				CE33E66C252D9AAF0025CB8B /* ArhimedScreenWorker.swift in Sources */,
+				CE6CEEC72523637A009F5F2C /* MainScreenSettings.swift in Sources */,
+				CE6CEEAD252362AF009F5F2C /* FrictionScreenIntent.swift in Sources */,
+				CE6CEEB6252362ED009F5F2C /* MenuScreenIntent.swift in Sources */,
+				CE6CEEA225236158009F5F2C /* ArhimedScreenIntent.swift in Sources */,
+				CE6CEE9C25236125009F5F2C /* ArhimedScreenView.swift in Sources */,
+				CE6CEEB0252362BE009F5F2C /* FrictionScreenModel.swift in Sources */,
+				CE6CEEBD25236350009F5F2C /* MainScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladbor.ios.study.PhysicEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladbor.ios.study.PhysicEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
